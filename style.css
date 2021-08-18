@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    width: 1350px;
+    height: auto;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #475763;
+}
+
+.slider-img{
+    background-image: url(./images/slider-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 480px;
+}
+
+.slider-arrow-lft, .slider-arrow-rgt{ 
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    top: 345px;
+}
+
+.slider-arrow-lft{
+    left: 20px;
+}
+.slider-arrow-rgt{
+    right: 20px;
+}
+
+.slider-arrow-lft a, .slider-arrow-rgt a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.slider-arrow-lft a:hover, .slider-arrow-rgt a:hover{
+    color: aqua;
+}
+/******************** container *****************/
+.container{
+    width: 1160px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.logo, .logo span img, .logo h1, .button{
+    float: left;
+}
+
+.logo{
+    padding: 26px 15px 10px 20px;
+}
+
+.logo h1{
+    color: white;
+}
+
+.button{
+    margin-left: 100px;
+}
+.button ol li{
+    display: inline-block;
+    padding: 40px 0px 10px 20px;
+}
+
+.button ol li a, .icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.button ol li a{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button ol li a:hover{
+    background-color: #3a4650; 
+}
+
+.button ol li a.active{
+    width: auto;
+    height: 30px;
+    background-color: #3a4650;
+}
+
+.icon{
+    padding: 40px 15px 10px 20px;
+    display: block;
+}
+
+.icon span{
+    width: auto;
+    height: 30px;
+    background-color: #4f5f6a;
+    padding: 5px;
+    color: white;
+    font-weight: normal;
+    border: 1px groove #3f4d57;
+    border-radius: 3px;
+    margin-right: 4px;
+}
+.margin-lft{
+    margin-left: 24px;
+}
+
+.icon span.registr-bg{
+    background-color: #f47a68;
+}
+
+/**************** slider-content ************************/
+
+.get-started{
+    width: 460px;
+    height: 310px;
+    color: white;
+    padding: 20px;
+    padding-top: 170px;
+}
+
+.get-started h1{
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.get-started p{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.get-started h6{
+    width: 130px;
+    height: 30px;
+    background-color: #f48270;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-started h6 a{
+    text-decoration: none;
+    color: white;
+}
+
+/************** learn-online ***************/
+
+.learn-online{
+    width: 346px;
+    height: 120px;
+    padding: 20px;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.learn-online span{
+    float: left;
+    padding-right: 10px;
+}
+.learn-online span img{
+    width: 30px;
+    height: 30px;
+    background-color: #f48270;
+    border-radius: 30px;
+}
+
+.learn-online h3{
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.learn-online p{
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 18px;
+}
+
+/************** popular courses *****************/
+
+.container h2{
+    font-weight: normal;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.pop-courses{
+    width: 210px;
+    height: 325px;
+    border:  1px solid #e1e1e1;
+    padding: 20px ;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 12px;
+    position: relative;
+}
+
+.pop-courses img{
+    width: 220px;
+    height: 240px;
+    margin-bottom: 20px;
+}
+
+.pop-courses h4{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.pop-courses span{
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.pop-footr{
+    width: 220px;
+    height: 20px;
+    background-color: #eaeaea;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px 10px 5px 20px;
+}
+
+.pop-footr span img, .pop-footr ol li img{
+    width: 20px;
+    height: 20px;
+}
+
+.pop-footr span, .pop-footr h6{
+    float: left;
+}
+
+
+.pop-footr h6{
+    margin-top: 5px;
+    font-weight: normal;
+    margin-right: 60px;
+}
+
+.pop-footr ol li{
+    display: inline;
+}
+
+.box, .box1{
+    width: 60px;
+    height: 35px;
+    background-color: #6bacda;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.box1{
+    background-color: #f37663;
+}
+
+
+/******************** footer-left ***********************/
+
+.clear{
+    clear: both;
+}
+
+.top-expert{
+    width: 555px;
+    height: 410px;
+    float: left;
+    margin-top: 30px;
+}
+
+.top-expert h4{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.footr-img{
+    width: 530px;
+    height: 145px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.foot-icon{
+    width: 120px;
+    height: 155px;
+    float: left;
+}
+
+.foot-icon img{
+    margin-bottom: 9px;
+}
+
+.foot-icon span img{
+    float: left;
+    margin-right: 3px;
+}
+
+.footr-para{
+    width: 415px;
+    height: 155px;
+}
+.footr-para h5{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.footr-para span{
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.footr-para p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+}
+/***************************footer-right **********************/
+
+.testominals{
+    width: 530px;
+    height: 370px;
+    padding: 20px;
+    float: left;
+    margin-top: 15px;
+}
+
+.testominals h4{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.testo-img{
+    width: 550px;
+    height: 110px;
+}
+
+.testo-img img{
+    float: left;
+}
+
+.testo-para{
+    width: 450px;
+    height: 110px;
+    float: left;
+}
+
+.testo-para p{
+    font-size: 14px;
+    margin-left: 20px;
+    line-height: 20px;
+    margin-bottom: 7px;
+    font-weight: normal;
+}
+
+.testo-para span{
+    margin-left: 20px;
+}
+
+/********************* footer-button ****************/
+
+.footer-button{
+    width: 1310px;
+    height: 20px;
+    padding: 20px;
+    background-color: #475763;
+}
+
+.footer-button p{
+    float: left;
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
+    margin-right: 700px;
+    padding-top: 5px;
+}
+
+.footer-button ol li{
+    display: inline-block;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.footer-button ol li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.footer-button ol li a:hover{
+    color: rgb(90, 90, 146);
+}
